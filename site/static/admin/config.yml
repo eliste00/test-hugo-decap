@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 i18n:
-  structure: multiple_folders
+  structure: single_file
   locales: [en, no]
   default_locale: en
 media_folder: "site/static/img" # Folder where user uploaded files should go
@@ -23,7 +23,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     i18n:
-      structure: multiple_folders
+      structure: single_file
       locales: [en, no]
       default_locale: en
     files:
@@ -94,7 +94,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "site_settings"
     label: "Site Settings"
     i18n:
-      structure: multiple_folders
+      structure: single_file
       locales: [en, no]
       default_locale: en
     files:
